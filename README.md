@@ -2,6 +2,13 @@
 
 Golang + html templates + TailwindCSS
 
+## Installing
+
+``` shell
+npm i
+npm run dev
+```
+
 ## Useful links:
 - [Installing Tailwind](https://tailwindcss.com/docs/installation)
 - [How I build web frontends in Go](https://philipptanlak.com/web-frontends-in-go/#implementing-the-template-renderers)
