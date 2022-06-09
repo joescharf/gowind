@@ -16,7 +16,7 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 func main() {
 	render()
 	http.HandleFunc("/", indexHandler)
-	http.Handle("/css/", http.StripPrefix("/css/", http.FileServer(http.Dir("templates/css"))))
+	http.Handle("/css/", http.StripPrefix("/css/", http.FileServer(http.Dir("dist/css"))))
 	http.ListenAndServe(":3000", nil)
 }
 
